@@ -1,0 +1,2 @@
+# ZPEqualHeightCustomizedCell_UITableViewController_xib
+介绍在UITableViewController中如何利用xib文件创建等高的cell。
