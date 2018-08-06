@@ -27,7 +27,7 @@
     ZPTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     
     /**
-     如果不在此方法中加载xib文件，就要在视图控制器类中的viewDidLoad方法中注册nib文件。
+     如果不在此方法中加载自定义cell的xib文件的话，就要在视图控制器类中的viewDidLoad方法中注册自定义cell的xib文件。
      */
     if (cell == nil)
     {
