@@ -29,7 +29,6 @@
         NSMutableArray *tempArray = [NSMutableArray array];
         for (NSDictionary *dic in dicArray)
         {
-            //把字典封装成对象
             ZPDeal *deal = [ZPDeal dealWithDict:dic];
             [tempArray addObject:deal];
         }
